@@ -1,0 +1,75 @@
+import type { ExperienceItem } from '../types/portfolio';
+
+export const experiences: ExperienceItem[] = [
+  {
+    company: 'Avanya Technology Pvt. Ltd.',
+    role: 'Full Stack Developer / Lead Senior Developer',
+    duration: 'May 2025 - January 2026 (8 months)',
+    description:
+      'Worked as a Lead Senior Developer and Full Stack Developer, leading and contributing to multiple website and software projects including the NAFHA website, Plan International website-related work, and the NAFHA PMIS project.',
+    projects: ['NAFHA PMIS', 'NAFHA Website', 'Plan International website-related project'],
+    responsibilities: [
+      'Led website and web application development projects',
+      'Worked on full stack web application development',
+      'Worked on organization website development',
+      'Worked on Plan International website-related project',
+      'Led or contributed to NAFHA PMIS',
+      'Managed backend development tasks',
+      'Integrated frontend and backend features',
+      'Coordinated development and delivery work',
+      'Worked on database-driven modules',
+      'Contributed to admin/workflow-based systems',
+      'Reviewed and improved project structure where needed',
+    ],
+  },
+  {
+    company: 'MIDAS Health Services',
+    role: 'Backend Laravel Developer',
+    duration: 'April 2024 - May 2025',
+    description: 'Worked on backend development and healthcare-related software systems using CodeIgniter 3, HTML, and CSS.',
+    projects: ['Hospital Information Management System'],
+    responsibilities: [
+      'Backend development',
+      'Healthcare system module development',
+      'Database-driven feature development',
+      'Web application maintenance',
+      'System improvement work',
+    ],
+  },
+  {
+    company: 'UpTechSys Private Limited',
+    role: 'Backend Laravel Developer',
+    duration: 'April 2023 - May 2023',
+    description: 'Worked as a Backend Laravel Developer using Laravel 9, Livewire, HTML, and CSS.',
+    responsibilities: ['Laravel backend development', 'Livewire implementation', 'Website feature development', 'HTML/CSS integration'],
+  },
+  {
+    company: 'Grafioffshorenepal Private Limited',
+    role: 'Backend Laravel Developer',
+    duration: 'January 2022 - September 2022',
+    description: 'Worked as a Backend Laravel Developer using Laravel 8 and Vue.js. Used Active Collab and GitLab for project workflow.',
+    projects: ['AutoWiki - Website for World Collector Database'],
+    responsibilities: ['Laravel backend development', 'Vue.js integration', 'Database-backed feature development', 'GitLab-based project workflow'],
+  },
+  {
+    company: 'Improvement Company Nepal Pvt. Ltd.',
+    role: 'Associate Developer',
+    duration: 'June 2019 - December 2021',
+    description: 'Worked as an Associate Developer using CodeIgniter, MVC/HMVC patterns, jQuery, and Ajax.',
+    projects: [
+      'Customer Relationship Management Software',
+      'Task Portal',
+      'Project Management Information System',
+      'Process Tracking System',
+      'Laboratory Information Management System',
+    ],
+    responsibilities: [
+      'CodeIgniter web application development',
+      'MVC and HMVC pattern implementation',
+      'jQuery and Ajax implementation',
+      'Database-backed system development',
+      'Access-level-based application features',
+      'Internal business software development',
+    ],
+  },
+];
