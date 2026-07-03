@@ -9,7 +9,7 @@ import { profile } from '../data/profile';
       <div class="hero-cover" aria-label="Portfolio cover">
         <img class="hero-avatar" src="/hero-developer.png" alt="Stylized developer illustration behind a laptop" />
         <div class="hero-copy">
-          <p class="hero-hello">Hello! I Am <span>{{ profile.name.split(' ')[0] }}</span></p>
+          <p class="hero-hello">Hello! I am <span>{{ profile.name.split(' ')[0] }}</span></p>
           <p class="hero-role">A developer who</p>
           <h1>
             Builds practical

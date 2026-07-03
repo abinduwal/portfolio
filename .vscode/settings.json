@@ -1,0 +1,15 @@
+{
+  // This is a Vue 3 + <script setup> + TypeScript project.
+  // Vetur only understands the Vue 2 Options API and misreads every
+  // <script setup> SFC as "has no default export" / falls back to
+  // implicit `any` for props it can't type. Volar is the correct,
+  // actively maintained tool for this stack — disable Vetur so its
+  // false positives stop showing up.
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
+  "vetur.validation.interpolation": false,
+  "extensions.unwantedRecommendations": ["octref.vetur"],
+
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
